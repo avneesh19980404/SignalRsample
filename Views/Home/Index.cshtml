@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-4">Cloak Votes</div>
+        <div class="col-4">Stone Votes</div>
+        <div class="col-4">Wand Votes</div>
+    </div>
+    <div class="row">
+        <div class="col-4" id="cloakVoteCounter"></div>
+        <div class="col-4" id="stoneVoteCounter"></div>
+        <div class="col-4" id="wandVoteCounter"></div>
+    </div>
+    <div class="row">
+        <div class="col-8">User View Counter : </div>
+        <div class="col-4" id="userViewCounter"></div>
+    </div>
+</div>
+
+<script src="~/js/signalr.js"></script>
+<script src="~/js/signalr_connection.js"></script>
+<script src="~/js/signalr_deathly_hollow_connection.js"></script>
